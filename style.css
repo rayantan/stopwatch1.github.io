@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    /* backdrop-filter: blur(10px); */
+  }
+  
+  .stopwatch {
+    text-align: center;
+    margin-top: 50px;
+    border: 5px solid whitesmoke;
+    margin-left: 40%;
+    margin-right: 40%;
+    backdrop-filter: blur(10px);
+  }
+  
+  .display {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    transition-duration: 0.4s;
+    font-weight: 700;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .start:hover {
+    background-color: #04AA6D; 
+    color: white;
+  }
+
+  .pause:hover {
+    background-color: blue; 
+    color: white;
+  }
+
+  .reset:hover {
+    background-color: red; 
+    color: white;
+  }
+
+  .lap:hover {
+    background-color:cornflowerblue;
+    color: white;
